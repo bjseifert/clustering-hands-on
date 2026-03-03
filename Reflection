@@ -1,0 +1,7 @@
+1. Real-World Application: Customer Segmentation
+In a business setting, clustering is the backbone of Market Basket Analysis. Retailers use these algorithms to group customers not just by demographics, but by behavioral patterns. For example, a "frugal" cluster might only respond to deep discounts, while a "convenience" cluster prioritizes fast shipping over price. This allows for hyper-personalized marketing that increases ROI.
+
+2. Ethical Considerations
+Proxy Variables: Even if you remove "protected" attributes (like race or gender) from a dataset, clustering algorithms can "re-discover" them through proxy variables like zip codes or purchase history. This can lead to unintentional discrimination in lending or insurance.
+
+The "Black Box" Problem: Unlike a decision tree where you can follow the logic, clustering is an "unsupervised" leap. If a person is clustered into a "High Risk" group, it is often difficult for a human to explain why that specific mathematical grouping occurred, making it hard to challenge or audit the decision.
